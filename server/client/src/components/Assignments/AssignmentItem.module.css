@@ -1,0 +1,53 @@
+.assignment-item {
+  width: 90%;
+  height: 9rem;
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.assignment-description {
+  overflow-y: auto;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  max-height: 3.5rem;
+}
+
+.assignment-description::-webkit-scrollbar {
+  width: 8px;
+}
+
+.assignment-description::-webkit-scrollbar-track {
+  background-color: rgb(155, 210, 229);
+  border-radius: 5px;
+}
+
+.assignment-description::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #2b8ac9;
+}
+
+.assignment-item:hover {
+  background-color: rgb(221, 237, 243);
+}
+
+.assignment-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  .assignment-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 325px) {
+  .assignment-item {
+    width: 100%;
+    max-width: 17rem;
+  }
+}

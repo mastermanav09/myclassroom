@@ -1,0 +1,33 @@
+.all-classes {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.your_class-heading {
+  font-size: 1.4rem;
+}
+
+.classes_main {
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .all-classes {
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  .all-classes {
+    width: 100%;
+    text-align: auto;
+  }
+}
+
+@media (max-width: 325px) {
+  .all-classes {
+    padding: 1rem;
+  }
+}

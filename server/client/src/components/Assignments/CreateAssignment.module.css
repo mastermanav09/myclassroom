@@ -1,0 +1,95 @@
+.main {
+  width: 60%;
+  margin: auto;
+  margin-top: 2.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 35rem;
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.8rem 0;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  border: 0;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #1a73e8;
+}
+
+.back-btn {
+  margin: 1rem;
+  border: 0;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #1a73e8;
+}
+
+.btn:hover,
+.btn:active,
+.back-btn:hover,
+.back-btn:active {
+  background-color: #5493e6;
+}
+
+.form-control input {
+  font: inherit;
+  font-size: 0.9rem;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 1.5rem;
+  outline: none;
+  letter-spacing: 0.1px;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 0rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-control label {
+    margin: 1rem 0;
+  }
+
+  .form-control input {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 90%;
+  }
+}

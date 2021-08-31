@@ -1,0 +1,92 @@
+.welcome-wrapper {
+  height: calc(100vh - 56px);
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-main {
+  width: 60%;
+  height: 33rem;
+  background-color: rgb(83, 96, 168);
+  color: white;
+  border-radius: 5px;
+}
+
+.welcome-main h2 {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.welcome-text {
+  margin: auto;
+  width: 80%;
+}
+
+.auth {
+  margin: 1rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-signin {
+  background-color: white;
+  border: 2px solid rgba(51, 62, 124);
+  max-width: 18rem;
+  margin: 0.5rem auto;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(51, 62, 124, 0.9);
+  padding: 0.4rem 1.5rem;
+}
+
+.google-signin:hover {
+  background-color: rgba(51, 62, 124, 0.9);
+  color: white;
+}
+
+@media (max-width: 790px) {
+  .welcome-main {
+    width: 80%;
+    height: 34rem;
+  }
+
+  .welcome-text {
+    text-align: center;
+    width: 90%;
+  }
+
+  .auth {
+    margin: 1.5rem auto;
+  }
+}
+
+@media (max-width: 525px) {
+  .welcome-main {
+    width: 90%;
+    height: 35.5rem;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
+
+  .welcome-main h2 {
+    margin: 1rem;
+  }
+
+  .auth {
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .auth {
+    margin: 0.4rem auto;
+  }
+}

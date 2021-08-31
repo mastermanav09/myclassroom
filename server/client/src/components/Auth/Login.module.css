@@ -1,0 +1,82 @@
+.loginpage {
+  margin: 0.5rem;
+}
+
+.auth-in {
+  padding: 0.5rem;
+  background: rgb(52, 62, 117);
+  border-radius: 15px;
+  width: 90%;
+  height: 16.5rem;
+  max-width: 350px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  cursor: default;
+  margin: auto;
+}
+
+.auth-password,
+.auth-email {
+  display: block;
+  text-align: center;
+  border: 2px solid rgb(50, 197, 255);
+  border-radius: 40px;
+  padding: 0.4rem 0.5rem;
+  width: 160px;
+  background: none;
+  margin: 1.8rem auto 1rem;
+  outline: 0;
+  transition: 0.25s;
+  color: aliceblue;
+}
+
+.loginSubmitBtn {
+  border: 2px solid rgb(17, 255, 96);
+  background: rgb(17, 255, 96);
+  color: aliceblue;
+  padding: 0.4rem 0.8rem;
+  border-radius: 40px;
+  width: 100px;
+  transition: 0.25s;
+  margin: 0.8rem auto;
+}
+
+.auth-email:hover,
+.auth-email:active,
+.auth-email:focus,
+.auth-password:hover,
+.auth-password:active,
+.auth-password:focus {
+  width: 200px;
+  outline: 0;
+}
+
+.loginSubmitBtn:hover {
+  cursor: pointer;
+  width: 120px;
+}
+
+.loginCancel {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.failure {
+  margin: 5px auto;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.toggle-switch {
+  text-align: center;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.toggle-switch * {
+  display: inline-block;
+}

@@ -1,0 +1,91 @@
+.toolbar {
+  width: 100%;
+  background: #2b8ac9;
+  height: 56px;
+}
+
+.toolbar__navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.toolbar__logo {
+  margin: 0.15rem 0 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: default;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbar_navigation-items li {
+  padding: 0 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.toolbar_navigation-items li:hover,
+.toolbar_navigation-items li:active {
+  color: rgba(188, 214, 221, 0.9);
+}
+
+.user-actions {
+  color: white;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.user-actions div {
+  margin: 0 0.4rem;
+  cursor: pointer;
+}
+
+.user-actions div:hover {
+  color: rgba(188, 214, 221, 0.9);
+}
+
+.active {
+  color: rgba(188, 214, 221, 0.9);
+}
+
+.inactive {
+  color: white;
+}
+
+.google-meet a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+@media (max-width: 769px) {
+  .toolbar_navigation-items {
+    display: none;
+  }
+
+  .user-actions div {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar__toggle-button {
+    display: none;
+  }
+
+  .toolbar__logo {
+    margin-left: 0;
+  }
+}

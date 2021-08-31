@@ -1,0 +1,28 @@
+.assignments-main {
+  margin: 1rem;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  border: 0;
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #1a73e8;
+}
+
+@media (max-width: 425px) {
+  .main {
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .curriculum-options {
+    font-size: 1rem;
+    margin: 0.5rem;
+    display: flex;
+  }
+}

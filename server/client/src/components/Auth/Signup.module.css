@@ -1,0 +1,165 @@
+.signupPage {
+  margin: 0.5rem;
+}
+
+.auth-in {
+  padding: 0.5rem;
+  background: rgb(52, 62, 117);
+  border-radius: 15px;
+  width: 90%;
+  height: 17rem;
+  max-width: 420px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+  cursor: default;
+  margin: auto;
+}
+
+.auth-username,
+.auth-password,
+.auth-email {
+  display: block;
+  text-align: center;
+  border: 2px solid rgb(50, 197, 255);
+  border-radius: 40px;
+  padding: 0.4rem 0.5rem;
+  width: 160px;
+  background: none;
+  margin: 1rem auto 1rem;
+  outline: 0;
+  transition: 0.25s;
+  color: aliceblue;
+}
+
+.signupSubmitBtn {
+  border: 2px solid rgb(17, 255, 96);
+  background: rgb(17, 255, 96);
+  color: aliceblue;
+  padding: 0.4rem 0.8rem;
+  border-radius: 40px;
+  width: 100px;
+  transition: 0.25s;
+  margin: 0.5rem auto;
+}
+
+.auth-username:hover,
+.auth-username:active,
+.auth-username:focus,
+.auth-email:hover,
+.auth-email:active,
+.auth-email:focus,
+.auth-password:hover,
+.auth-password:active,
+.auth-password:focus {
+  width: 200px;
+  outline: 0;
+}
+
+.signupSubmitBtn:hover {
+  cursor: pointer;
+  width: 120px;
+}
+
+.signupCancel {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+}
+
+.failure {
+  margin: 5px auto;
+  font-size: 0.9rem;
+  color: rgb(243, 112, 112);
+  text-align: center;
+}
+
+.success {
+  font-size: 0.9rem;
+  color: rgb(158, 207, 79);
+  text-align: center;
+}
+
+.toggle-switch {
+  text-align: center;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.toggle-switch * {
+  display: inline-block;
+}
+
+@media (max-width: 425px) {
+  .toggle-switch > span:first-child {
+    width: 100%;
+  }
+
+  .failure {
+    margin: 2px auto;
+    font-size: 0.9rem;
+    color: rgb(243, 112, 112);
+    text-align: center;
+  }
+
+  .success {
+    font-size: 0.9rem;
+    color: rgb(158, 207, 79);
+    text-align: center;
+  }
+}
+
+@media (max-width: 475px) {
+  .auth-username,
+  .auth-password,
+  .auth-email {
+    padding: 0.3rem 0;
+    width: 120px;
+    margin: 1rem auto 1rem;
+  }
+
+  .auth-in {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .auth-in {
+    height: 18rem;
+    width: 90%;
+  }
+
+  .auth-username,
+  .auth-password,
+  .auth-email {
+    transition: none;
+  }
+
+  .signupSubmitBtn {
+    transition: none;
+  }
+
+  .auth-username:hover,
+  .auth-username:active,
+  .auth-username:focus,
+  .auth-email:hover,
+  .auth-email:active,
+  .auth-email:focus,
+  .auth-password:hover,
+  .auth-password:active,
+  .auth-password:focus {
+    width: 120px;
+    outline: 0;
+  }
+}
+
+@media (max-width: 325px) {
+  .auth-in {
+    width: 100%;
+  }
+}
